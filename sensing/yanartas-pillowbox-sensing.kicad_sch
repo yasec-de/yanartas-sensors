@@ -23593,6 +23593,16 @@
 	)
 	(wire
 		(pts
+			(xy 163.83 322.58) (xy 181.61 322.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b0bc802-52a7-4021-9ebc-8610f623ff5d")
+	)
+	(wire
+		(pts
 			(xy 581.66 341.63) (xy 581.66 347.98)
 		)
 		(stroke
@@ -25783,6 +25793,16 @@
 			(type default)
 		)
 		(uuid "c75edf81-5500-4307-9a34-cb4eec908417")
+	)
+	(wire
+		(pts
+			(xy 163.83 325.12) (xy 181.61 325.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8019b21-0538-4b41-9674-105f8e8dfc95")
 	)
 	(wire
 		(pts
@@ -28526,12 +28546,12 @@
 		(uuid "0b5c8b6e-4ec2-4cc3-b121-8ee8b55a8b19")
 	)
 	(label "FPGA_TDI"
-		(at 105.41 336.55 0)
+		(at 181.61 281.94 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "0d0a3207-abe5-4591-a0f4-8b1233ed54ec")
 	)
@@ -28636,7 +28656,7 @@
 		(uuid "11425c9d-ca4d-4aa5-bcd7-f62dca2e7bed")
 	)
 	(label "~{OUT_SECURE}"
-		(at 105.41 370.84 0)
+		(at 109.22 314.96 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -28776,12 +28796,12 @@
 		(uuid "1b36b3c1-37a2-4c12-9760-e78f376dd02c")
 	)
 	(label "FPGA_TCK"
-		(at 105.41 347.98 0)
+		(at 181.61 312.42 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "1d698d42-f48e-4792-a5b0-2fbb6320bb7f")
 	)
@@ -29346,7 +29366,7 @@
 		(uuid "4607589f-6014-4479-88f5-d3e82fc0e53c")
 	)
 	(label "DBG1"
-		(at 161.29 368.3 180)
+		(at 181.61 297.18 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -29576,7 +29596,7 @@
 		(uuid "5878a238-ab73-4b47-873e-977cced4474d")
 	)
 	(label "FPGA_TMS"
-		(at 105.41 334.01 0)
+		(at 109.22 302.26 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -29806,12 +29826,12 @@
 		(uuid "64085d07-238c-4319-a909-aaecb06e6d7d")
 	)
 	(label "HOST_ALMn"
-		(at 105.41 365.76 0)
+		(at 181.61 269.24 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "64a4b08b-cf84-4c14-956a-ecb7070c3b48")
 	)
@@ -29876,12 +29896,12 @@
 		(uuid "67c93b76-020f-4c50-ad5b-7b978fcab7ec")
 	)
 	(label "FPGA_TRIG"
-		(at 105.41 340.36 0)
+		(at 181.61 314.96 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "68035ab1-5498-4ddb-9a68-ec8b94a2a278")
 	)
@@ -29906,7 +29926,7 @@
 		(uuid "6a466097-d733-48ee-9ad8-0017890fa4ee")
 	)
 	(label "LED3"
-		(at 168.91 367.03 0)
+		(at 109.22 289.56 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -30356,12 +30376,12 @@
 		(uuid "87307470-513e-4ba9-9c4f-b0d8f1c91b94")
 	)
 	(label "~{OUT_ALARM}"
-		(at 173.99 378.46 180)
+		(at 109.22 312.42 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "892b6acf-093e-4bbd-8b0f-609007d86ebd")
 	)
@@ -30436,17 +30456,17 @@
 		(uuid "8da1ebcf-05c1-49ed-9611-1435f15be085")
 	)
 	(label "FPGA_RST"
-		(at 106.68 342.9 0)
+		(at 181.61 317.5 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "8dc58028-f5c5-4703-942e-293e41b116d4")
 	)
 	(label "~{OUT_ACT}"
-		(at 105.41 368.3 0)
+		(at 109.22 287.02 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -30606,12 +30626,12 @@
 		(uuid "9b20fc17-1ed7-403c-9da5-67f92023ae26")
 	)
 	(label "PMIC_ENABLE"
-		(at 153.67 379.73 180)
+		(at 109.22 317.5 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "9b68a4ef-9532-4102-91aa-5e328a58c511")
 	)
@@ -30876,7 +30896,7 @@
 		(uuid "a8d4cee0-5106-443c-af3e-690651a107d1")
 	)
 	(label "HOST_ALM"
-		(at 105.41 373.38 0)
+		(at 109.22 292.1 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -31136,7 +31156,7 @@
 		(uuid "b57b4233-0e17-4eda-811e-5fb405e55b3a")
 	)
 	(label "LED2"
-		(at 170.18 369.57 180)
+		(at 181.61 304.8 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -31216,12 +31236,12 @@
 		(uuid "b9e2582d-11be-4d56-bbb9-5aac42622ec8")
 	)
 	(label "FPGA_DONE"
-		(at 121.92 355.6 0)
+		(at 181.61 325.12 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "ba4d1a50-5af8-4bba-ab2e-d4f4ca0a3f15")
 	)
@@ -31966,12 +31986,12 @@
 		(uuid "f47abd32-9a7f-4878-9144-53e834cfdd8e")
 	)
 	(label "FPGA_RECONFIG_N"
-		(at 121.92 353.06 0)
+		(at 181.61 322.58 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "f4c4b6ad-0be7-451c-aaea-0df1c684ebca")
 	)
@@ -31986,7 +32006,7 @@
 		(uuid "f5486a95-d0f5-4454-8b2d-74b7c83b1683")
 	)
 	(label "LED1"
-		(at 161.29 370.84 180)
+		(at 181.61 307.34 180)
 		(effects
 			(font
 				(size 1.27 1.27)
