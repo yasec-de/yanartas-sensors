@@ -1,11 +1,15 @@
 {
   "board": {
-    "active_layer": 2,
+    "active_layer": 0,
     "active_layer_preset": "",
     "auto_track_width": true,
     "hidden_netclasses": [],
-    "hidden_nets": [],
-    "high_contrast_mode": 1,
+    "hidden_nets": [
+      "GND",
+      "+3V3D",
+      "+3V3A"
+    ],
+    "high_contrast_mode": 2,
     "net_color_mode": 1,
     "opacity": {
       "images": 0.6,
@@ -87,8 +91,6 @@
       false,
       false,
       false,
-      false,
-      false,
       false
     ],
     "col_order": [
@@ -106,9 +108,7 @@
       11,
       12,
       13,
-      14,
-      15,
-      16
+      14
     ],
     "col_widths": [],
     "custom_group_rules": [],
