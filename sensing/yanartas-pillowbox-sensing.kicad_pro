@@ -145,8 +145,8 @@
           "min_thickness": 0.25,
           "pad_connection": 1,
           "remove_islands": 0,
-          "thermal_relief_gap": 0.2,
-          "thermal_relief_spoke_width": 0.3
+          "thermal_relief_gap": 0.5,
+          "thermal_relief_spoke_width": 0.5
         }
       },
       "diff_pair_dimensions": [
@@ -248,7 +248,7 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.05,
+        "min_clearance": 0.0,
         "min_connection": 0.0,
         "min_copper_edge_clearance": 0.5,
         "min_groove_width": 0.0,
@@ -316,21 +316,9 @@
       ],
       "track_widths": [
         0.0,
-        0.1,
-        0.12,
         0.142,
-        0.15,
         0.2,
-        0.2,
-        0.3,
-        0.344,
-        0.5,
-        0.8,
-        1.0,
-        1.2,
-        1.5,
-        1.8,
-        2.0
+        0.344
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -366,14 +354,6 @@
         {
           "diameter": 0.35,
           "drill": 0.2
-        },
-        {
-          "diameter": 0.45,
-          "drill": 0.3
-        },
-        {
-          "diameter": 0.6,
-          "drill": 0.4
         }
       ],
       "via_stack_presets": [],
@@ -673,7 +653,7 @@
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.1,
+        "clearance": 0.2,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -684,7 +664,7 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.15,
+        "track_width": 0.2,
         "tuning_profile": "",
         "via_diameter": 0.35,
         "via_drill": 0.2,
@@ -694,12 +674,13 @@
         "bus_width": 12,
         "clearance": 0.2,
         "diff_pair_gap": 0.127,
+        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.142,
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "diff_100",
-        "pcb_color": "rgb(122, 227, 198)",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 0,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.142,
@@ -712,6 +693,7 @@
         "bus_width": 12,
         "clearance": 0.2,
         "diff_pair_gap": 0.127,
+        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
         "microvia_diameter": 0.3,
@@ -730,6 +712,7 @@
         "bus_width": 12,
         "clearance": 0.2,
         "diff_pair_gap": 0.127,
+        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.142,
         "line_style": 0,
         "microvia_diameter": 0.3,
@@ -1024,179 +1007,163 @@
         "diff_100",
         "diffpair"
       ],
-      "/SPL_LS_1N": [
+      "/STIM_1N_A": [
         "diff_100",
         "diffpair"
       ],
-      "/SPL_LS_1P": [
+      "/STIM_1N_B": [
         "diff_100",
         "diffpair"
       ],
-      "/SPL_LS_2N": [
+      "/STIM_1N_C": [
         "diff_100",
         "diffpair"
       ],
-      "/SPL_LS_2P": [
+      "/STIM_1N_R": [
         "diff_100",
         "diffpair"
       ],
-      "/STIM_A_1N": [
+      "/STIM_1N_RC": [
         "diff_100",
         "diffpair"
       ],
-      "/STIM_A_1P": [
+      "/STIM_1P_A": [
         "diff_100",
         "diffpair"
       ],
-      "/STIM_A_2N": [
+      "/STIM_1P_B": [
         "diff_100",
         "diffpair"
       ],
-      "/STIM_A_2P": [
+      "/STIM_1P_C": [
         "diff_100",
         "diffpair"
       ],
-      "/STIM_B_1N": [
+      "/STIM_1P_R": [
         "diff_100",
         "diffpair"
       ],
-      "/STIM_B_1P": [
+      "/STIM_1P_RC": [
         "diff_100",
         "diffpair"
       ],
-      "/STIM_B_2N": [
+      "/STIM_2N_A": [
         "diff_100",
         "diffpair"
       ],
-      "/STIM_B_2P": [
+      "/STIM_2N_B": [
         "diff_100",
         "diffpair"
       ],
-      "/STIM_C_1N": [
+      "/STIM_2N_C": [
         "diff_100",
         "diffpair"
       ],
-      "/STIM_C_1P": [
+      "/STIM_2N_R": [
         "diff_100",
         "diffpair"
       ],
-      "/STIM_C_2N": [
+      "/STIM_2N_RC": [
         "diff_100",
         "diffpair"
       ],
-      "/STIM_C_2P": [
+      "/STIM_2P_A": [
         "diff_100",
         "diffpair"
       ],
-      "/STIM_RC_1N": [
+      "/STIM_2P_B": [
         "diff_100",
         "diffpair"
       ],
-      "/STIM_RC_1P": [
+      "/STIM_2P_C": [
         "diff_100",
         "diffpair"
       ],
-      "/STIM_RC_2N": [
+      "/STIM_2P_R": [
         "diff_100",
         "diffpair"
       ],
-      "/STIM_RC_2P": [
+      "/STIM_2P_RC": [
         "diff_100",
         "diffpair"
       ],
-      "/STIM_R_1N": [
+      "/STROBE_1N_A": [
         "diff_100",
         "diffpair"
       ],
-      "/STIM_R_1P": [
+      "/STROBE_1N_B": [
         "diff_100",
         "diffpair"
       ],
-      "/STIM_R_2N": [
+      "/STROBE_1N_C": [
         "diff_100",
         "diffpair"
       ],
-      "/STIM_R_2P": [
+      "/STROBE_1N_R": [
         "diff_100",
         "diffpair"
       ],
-      "/STROBE_A_1N": [
+      "/STROBE_1N_RC": [
         "diff_100",
         "diffpair"
       ],
-      "/STROBE_A_1P": [
+      "/STROBE_1P_A": [
         "diff_100",
         "diffpair"
       ],
-      "/STROBE_A_2N": [
+      "/STROBE_1P_B": [
         "diff_100",
         "diffpair"
       ],
-      "/STROBE_A_2P": [
+      "/STROBE_1P_C": [
         "diff_100",
         "diffpair"
       ],
-      "/STROBE_B_1N": [
+      "/STROBE_1P_R": [
         "diff_100",
         "diffpair"
       ],
-      "/STROBE_B_1P": [
+      "/STROBE_1P_RC": [
         "diff_100",
         "diffpair"
       ],
-      "/STROBE_B_2N": [
+      "/STROBE_2N_A": [
         "diff_100",
         "diffpair"
       ],
-      "/STROBE_B_2P": [
+      "/STROBE_2N_B": [
         "diff_100",
         "diffpair"
       ],
-      "/STROBE_C_1N": [
+      "/STROBE_2N_C": [
         "diff_100",
         "diffpair"
       ],
-      "/STROBE_C_1P": [
+      "/STROBE_2N_R": [
         "diff_100",
         "diffpair"
       ],
-      "/STROBE_C_2N": [
+      "/STROBE_2N_RC": [
         "diff_100",
         "diffpair"
       ],
-      "/STROBE_C_2P": [
+      "/STROBE_2P_A": [
         "diff_100",
         "diffpair"
       ],
-      "/STROBE_RC_1N": [
+      "/STROBE_2P_B": [
         "diff_100",
         "diffpair"
       ],
-      "/STROBE_RC_1P": [
+      "/STROBE_2P_C": [
         "diff_100",
         "diffpair"
       ],
-      "/STROBE_RC_2N": [
+      "/STROBE_2P_R": [
         "diff_100",
         "diffpair"
       ],
-      "/STROBE_RC_2P": [
-        "diff_100",
-        "diffpair"
-      ],
-      "/STROBE_R_1N": [
-        "diff_100",
-        "diffpair"
-      ],
-      "/STROBE_R_1P": [
-        "diff_100",
-        "diffpair"
-      ],
-      "/STROBE_R_2N": [
-        "diff_100",
-        "diffpair"
-      ],
-      "/STROBE_R_2P": [
+      "/STROBE_2P_RC": [
         "diff_100",
         "diffpair"
       ],
@@ -1220,7 +1187,15 @@
         "diff_100",
         "diffpair"
       ],
+      "/TDR_1N_CPL": [
+        "diff_100",
+        "diffpair"
+      ],
       "/TDR_1P": [
+        "diff_100",
+        "diffpair"
+      ],
+      "/TDR_1P_CPL": [
         "diff_100",
         "diffpair"
       ],
@@ -1244,23 +1219,15 @@
         "diff_100",
         "diffpair"
       ],
+      "/TDR_2N_CPL": [
+        "diff_100",
+        "diffpair"
+      ],
       "/TDR_2P": [
         "diff_100",
         "diffpair"
       ],
-      "/TDR_CPL_1N": [
-        "diff_100",
-        "diffpair"
-      ],
-      "/TDR_CPL_1P": [
-        "diff_100",
-        "diffpair"
-      ],
-      "/TDR_CPL_2N": [
-        "diff_100",
-        "diffpair"
-      ],
-      "/TDR_CPL_2P": [
+      "/TDR_2P_CPL": [
         "diff_100",
         "diffpair"
       ],
@@ -1565,12 +1532,6 @@
           "group_by": false,
           "label": "Digikey",
           "name": "Digikey",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "LCSC_Alt",
-          "name": "LCSC_Alt",
           "show": false
         }
       ],
