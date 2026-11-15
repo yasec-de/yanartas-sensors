@@ -1,7 +1,9 @@
 (version 1)
 
-# Coupled diff pairs are routed at a 0.127 mm gap (0.142/0.127 -> 100 ohm, 0.2/0.127 -> 90 ohm on JLC04121H-7628).
-# The net-class clearance (0.2 mm) keeps applying to everything else; this only relaxes P-to-N of the same pair.
 (rule "diffpair_gap"
 	(condition "A.isCoupledDiffPair()")
-	(constraint clearance (min 0.12)))
+	(constraint clearance (min 0.12mm)))
+
+(rule "diff_100 pad-to-pad clearance"
+    (constraint clearance (min 0mm))
+    (condition "A.Type == 'Pad' && B.Type == 'Pad' && (A.NetClass == 'diff_100' || B.NetClass == 'diff_100')"))
