@@ -95,8 +95,22 @@
 			(size 7 7)
 			(drill 4.3)
 			(layers "*.Cu" "*.Mask" "F.Paste")
-			(remove_unused_layers no)
+			(remove_unused_layers yes)
+			(keep_end_layers yes)
 			(uuid "f8af467f-3455-446e-9eea-fe9e21709ecc")
+			(padstack
+				(mode front_inner_back)
+				(layer "Inner"
+					(shape circle)
+					(size 4.5 4.5)
+					(zone_connect -1)
+				)
+				(layer "B.Cu"
+					(shape circle)
+					(size 4.5 4.5)
+					(zone_connect -1)
+				)
+			)
 		)
 		(embedded_fonts no)
 	)
