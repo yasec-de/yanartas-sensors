@@ -2,7 +2,7 @@
   "board": {
     "3dviewports": [],
     "design_settings": {
-      "bom_export_filename": "${PROJECTNAME}.csv",
+      "bom_export_filename": "fab/yanartas-pillowbox-sensing.csv",
       "bom_fmt_presets": [],
       "bom_fmt_settings": {
         "field_delimiter": ",",
@@ -100,7 +100,7 @@
             "group_by": false,
             "label": "LCSC",
             "name": "LCSC",
-            "show": false
+            "show": true
           },
           {
             "group_by": false,
@@ -124,6 +124,12 @@
             "group_by": false,
             "label": "Digikey",
             "name": "Digikey",
+            "show": false
+          },
+          {
+            "group_by": false,
+            "label": "KOBEE_STUDIO_DATA",
+            "name": "KOBEE_STUDIO_DATA",
             "show": false
           }
         ],
@@ -1427,7 +1433,7 @@
     "last_paths": {
       "idf": "",
       "netlist": "./",
-      "plot": "",
+      "plot": "gerber",
       "specctra_dsn": "",
       "step": "",
       "vrml": ""
