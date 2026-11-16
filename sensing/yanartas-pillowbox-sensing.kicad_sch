@@ -13842,7 +13842,7 @@
 		)
 		(uuid "89a2797c-8e61-4df4-821a-c3d7800dcc61")
 	)
-	(text "TODO: ESD diodes here?"
+	(text "Maybe ESD diodes here?"
 		(exclude_from_sim no)
 		(at 753.364 127.762 0)
 		(effects

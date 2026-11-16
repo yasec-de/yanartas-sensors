@@ -156,7 +156,128 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        {
+          "marker": {
+            "error_type": "DRCET_LIB_FOOTPRINT_ISSUES",
+            "items": [
+              {
+                "value": "0101c93e-54c9-4101-bcc0-0fa8adc8c21f"
+              }
+            ],
+            "marker_type": "MT_DRC",
+            "position": {
+              "x_nm": "151888000",
+              "y_nm": "134918910"
+            }
+          }
+        },
+        {
+          "marker": {
+            "error_type": "DRCET_LIB_FOOTPRINT_ISSUES",
+            "items": [
+              {
+                "value": "ea097803-b7ab-42c8-a9f7-c68cf0ce2218"
+              }
+            ],
+            "marker_type": "MT_DRC",
+            "position": {
+              "x_nm": "179700000",
+              "y_nm": "64050000"
+            }
+          }
+        },
+        {
+          "marker": {
+            "error_type": "DRCET_LIB_FOOTPRINT_ISSUES",
+            "items": [
+              {
+                "value": "9e2bd5db-01bc-4360-b75d-f0b3e37bfa02"
+              }
+            ],
+            "marker_type": "MT_DRC",
+            "position": {
+              "x_nm": "172608800",
+              "y_nm": "135235355"
+            }
+          }
+        },
+        {
+          "marker": {
+            "error_type": "DRCET_LINE_WIDTH",
+            "items": [
+              {
+                "value": "c30e04fb-0bae-446d-9419-c57d3b85051d"
+              }
+            ],
+            "marker_type": "MT_DRC",
+            "position": {
+              "x_nm": "172900000",
+              "y_nm": "68000000"
+            }
+          }
+        },
+        {
+          "marker": {
+            "error_type": "DRCET_LINE_WIDTH",
+            "items": [
+              {
+                "value": "ac2a88e9-a764-4cb4-9d3b-b4b0b431f00c"
+              }
+            ],
+            "marker_type": "MT_DRC",
+            "position": {
+              "x_nm": "173000000",
+              "y_nm": "63250000"
+            }
+          }
+        },
+        {
+          "marker": {
+            "error_type": "DRCET_LINE_WIDTH",
+            "items": [
+              {
+                "value": "89a8941f-3aba-473c-8733-dea983eade4c"
+              }
+            ],
+            "marker_type": "MT_DRC",
+            "position": {
+              "x_nm": "180600000",
+              "y_nm": "131750000"
+            }
+          }
+        },
+        {
+          "marker": {
+            "error_type": "DRCET_LINE_WIDTH",
+            "items": [
+              {
+                "value": "dcbf8ac8-0a8a-4820-8d68-3596501e8cca"
+              }
+            ],
+            "marker_type": "MT_DRC",
+            "position": {
+              "x_nm": "172950000",
+              "y_nm": "66350000"
+            }
+          }
+        },
+        {
+          "marker": {
+            "error_type": "DRCET_LINE_WIDTH",
+            "items": [
+              {
+                "value": "fbe2f629-2a11-4ebd-9400-becb8822ba74"
+              }
+            ],
+            "marker_type": "MT_DRC",
+            "position": {
+              "x_nm": "100989814",
+              "y_nm": "109393519"
+            }
+          }
+        }
+      ],
       "meta": {
         "version": 4
       },

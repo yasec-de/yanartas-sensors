@@ -15157,22 +15157,10 @@
 		(uuid "2a3c791a-b84b-4c59-ac1a-5009633523eb")
 	)
 	(junction
-		(at 140.97 389.89)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2a5fa7b3-b02a-4f11-974e-ce5603779551")
-	)
-	(junction
 		(at 661.67 336.55)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2ace0cff-4bbe-4546-93c1-3d981d1ba2bb")
-	)
-	(junction
-		(at 140.97 410.21)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2ee5da3f-383e-4bd5-b8e0-e3b561ad3cf3")
 	)
 	(junction
 		(at 180.34 354.33)
@@ -15253,12 +15241,6 @@
 		(uuid "38ae8d1d-430c-4f03-880b-6f66d8f2ccfc")
 	)
 	(junction
-		(at 389.89 422.91)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3914a082-aee0-4139-ad2b-8d9b13c5a03d")
-	)
-	(junction
 		(at 552.45 334.01)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -15317,12 +15299,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "43d03d5c-1e55-4703-912d-f6fd6f1bd0da")
-	)
-	(junction
-		(at 148.59 410.21)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4438db07-a5d0-4f49-acf1-e998d34c449f")
 	)
 	(junction
 		(at 595.63 290.83)
@@ -15431,6 +15407,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "59f492db-6fb1-4a65-abc3-1b0b726d8b50")
+	)
+	(junction
+		(at 389.89 403.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5b9e205e-b840-4959-b2ae-e059e75d005a")
 	)
 	(junction
 		(at 455.93 218.44)
@@ -15607,6 +15589,12 @@
 		(uuid "81187c44-3f62-4ed0-921f-03802d848759")
 	)
 	(junction
+		(at 148.59 396.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8167c9a4-e5cd-4c40-b153-a63ec5425f54")
+	)
+	(junction
 		(at 83.82 205.74)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -15677,12 +15665,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9df01329-744f-42a8-948c-3bb6b3f2e41e")
-	)
-	(junction
-		(at 205.74 405.13)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9f096bbf-818d-481d-aa49-c6d4ed01725c")
 	)
 	(junction
 		(at 549.91 252.73)
@@ -15775,12 +15757,6 @@
 		(uuid "b0864be7-69e0-46b8-bbc8-5306e7ae84a0")
 	)
 	(junction
-		(at 148.59 389.89)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b097b907-8bad-4187-899d-74f7070eed0c")
-	)
-	(junction
 		(at 628.65 375.92)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -15809,6 +15785,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ba582107-ae35-4c50-8a7c-5ac5f1b2c003")
+	)
+	(junction
+		(at 148.59 403.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bbfb8274-8381-457b-a4be-8c0863f63e6f")
 	)
 	(junction
 		(at 595.63 336.55)
@@ -16065,6 +16047,10 @@
 	(no_connect
 		(at 598.17 295.91)
 		(uuid "36c26c4d-1e24-4d70-ae53-61bba9479fa0")
+	)
+	(no_connect
+		(at 218.44 410.21)
+		(uuid "3870ab99-9bd8-47dd-a73d-d25b6868e519")
 	)
 	(no_connect
 		(at 659.13 290.83)
@@ -17118,7 +17104,7 @@
 	)
 	(wire
 		(pts
-			(xy 383.54 422.91) (xy 389.89 422.91)
+			(xy 383.54 422.91) (xy 405.13 422.91)
 		)
 		(stroke
 			(width 0)
@@ -17205,16 +17191,6 @@
 			(type default)
 		)
 		(uuid "06e817e4-29c4-45c9-941f-cf24d6b67b2a")
-	)
-	(wire
-		(pts
-			(xy 218.44 410.21) (xy 218.44 411.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "079bcba9-844a-45fa-a92e-7c53bf61f4fe")
 	)
 	(wire
 		(pts
@@ -17438,16 +17414,6 @@
 	)
 	(wire
 		(pts
-			(xy 389.89 411.48) (xy 389.89 415.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "112bee23-7fab-4a32-8c64-ed7be9a05214")
-	)
-	(wire
-		(pts
 			(xy 595.63 290.83) (xy 595.63 298.45)
 		)
 		(stroke
@@ -17515,16 +17481,6 @@
 			(type default)
 		)
 		(uuid "15c68d24-86b0-43a2-93ee-a8990b1d3b17")
-	)
-	(wire
-		(pts
-			(xy 389.89 420.37) (xy 389.89 422.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "15cd8a32-20ad-4193-b1e8-f9eb43e06f6d")
 	)
 	(wire
 		(pts
@@ -18292,16 +18248,6 @@
 	)
 	(wire
 		(pts
-			(xy 389.89 422.91) (xy 405.13 422.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3610a6c6-d262-474d-a8bd-113ea2944f5c")
-	)
-	(wire
-		(pts
 			(xy 694.69 256.54) (xy 716.28 256.54)
 		)
 		(stroke
@@ -18499,6 +18445,16 @@
 			(type default)
 		)
 		(uuid "3c7e9f5e-eace-475a-b61b-93d7d454401d")
+	)
+	(wire
+		(pts
+			(xy 389.89 410.21) (xy 389.89 411.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d992b00-6175-4ce0-8981-a3289a9d94bd")
 	)
 	(wire
 		(pts
@@ -18963,16 +18919,6 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 403.86) (xy 171.45 403.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "518736c2-322e-4f9a-8c63-b925f38a1c3a")
-	)
-	(wire
-		(pts
 			(xy 88.9 283.21) (xy 88.9 361.95)
 		)
 		(stroke
@@ -19131,16 +19077,6 @@
 			(type default)
 		)
 		(uuid "56f31a21-210c-4579-a37f-f653e91f0fbd")
-	)
-	(wire
-		(pts
-			(xy 205.74 411.48) (xy 205.74 405.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "56fa1144-25e8-44c9-a90e-c799a110bae2")
 	)
 	(wire
 		(pts
@@ -19335,7 +19271,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 410.21) (xy 148.59 410.21)
+			(xy 119.38 403.86) (xy 148.59 403.86)
 		)
 		(stroke
 			(width 0)
@@ -19808,16 +19744,6 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 396.24) (xy 167.64 396.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6e55790d-2eb1-42d3-a7ef-d6f6b3809923")
-	)
-	(wire
-		(pts
 			(xy 796.29 322.58) (xy 796.29 323.85)
 		)
 		(stroke
@@ -19955,16 +19881,6 @@
 			(type default)
 		)
 		(uuid "75590ccc-2791-4a26-b3b4-df8c064fc526")
-	)
-	(wire
-		(pts
-			(xy 119.38 410.21) (xy 140.97 410.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7559df44-c8f7-4ad3-878d-c3efa801d211")
 	)
 	(wire
 		(pts
@@ -20228,16 +20144,6 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 410.21) (xy 167.64 410.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7cff250c-79b6-440c-858a-dc868f2207a7")
-	)
-	(wire
-		(pts
 			(xy 778.51 265.43) (xy 781.05 265.43)
 		)
 		(stroke
@@ -20489,16 +20395,6 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 411.48) (xy 205.74 411.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "86aae963-bde4-4d86-9357-e6d30336496b")
-	)
-	(wire
-		(pts
 			(xy 101.6 346.71) (xy 74.93 346.71)
 		)
 		(stroke
@@ -20516,6 +20412,16 @@
 			(type default)
 		)
 		(uuid "870b707b-bd78-4aae-911a-677f4b7ddabf")
+	)
+	(wire
+		(pts
+			(xy 148.59 403.86) (xy 171.45 403.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "878c1c72-ded5-4cd9-8ff1-264a2a8bf3be")
 	)
 	(wire
 		(pts
@@ -20569,7 +20475,7 @@
 	)
 	(wire
 		(pts
-			(xy 383.54 403.86) (xy 405.13 403.86)
+			(xy 383.54 403.86) (xy 389.89 403.86)
 		)
 		(stroke
 			(width 0)
@@ -20721,16 +20627,6 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 410.21) (xy 167.64 403.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8e2100c0-8e2b-48e6-861c-9fb9da914777")
-	)
-	(wire
-		(pts
 			(xy 741.68 231.14) (xy 741.68 233.68)
 		)
 		(stroke
@@ -20788,16 +20684,6 @@
 			(type default)
 		)
 		(uuid "903802c4-79c3-4c7c-bf26-8474395b30c9")
-	)
-	(wire
-		(pts
-			(xy 148.59 389.89) (xy 140.97 389.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "905a852e-6d0c-4423-ace0-d26a0f8d9169")
 	)
 	(wire
 		(pts
@@ -21204,16 +21090,6 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 410.21) (xy 148.59 408.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9f8765df-cdd7-4927-adc5-36ddd9069de9")
-	)
-	(wire
-		(pts
 			(xy 95.25 402.59) (xy 109.22 402.59)
 		)
 		(stroke
@@ -21304,7 +21180,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 389.89) (xy 119.38 389.89)
+			(xy 119.38 396.24) (xy 148.59 396.24)
 		)
 		(stroke
 			(width 0)
@@ -21596,16 +21472,6 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 389.89) (xy 148.59 391.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "af0e5b68-27d4-40db-a31b-5c1415c8b602")
-	)
-	(wire
-		(pts
 			(xy 82.55 382.27) (xy 82.55 384.81)
 		)
 		(stroke
@@ -21673,16 +21539,6 @@
 			(type default)
 		)
 		(uuid "b03a9610-3e2a-4f77-aeb0-cdd09b1987f5")
-	)
-	(wire
-		(pts
-			(xy 148.59 398.78) (xy 148.59 401.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b03e6fb9-5ca3-4e0f-9a35-d586d84e2244")
 	)
 	(wire
 		(pts
@@ -21823,16 +21679,6 @@
 			(type default)
 		)
 		(uuid "bb271f12-2985-4725-af56-a227371d215d")
-	)
-	(wire
-		(pts
-			(xy 140.97 389.89) (xy 140.97 391.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bb5240b1-44ce-4ff3-a0f8-45c8426a1019")
 	)
 	(wire
 		(pts
@@ -22026,7 +21872,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 389.89) (xy 119.38 397.51)
+			(xy 119.38 396.24) (xy 119.38 397.51)
 		)
 		(stroke
 			(width 0)
@@ -22447,6 +22293,16 @@
 	)
 	(wire
 		(pts
+			(xy 389.89 403.86) (xy 405.13 403.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d210cbb8-8cef-4274-a651-ddf5e634c047")
+	)
+	(wire
+		(pts
 			(xy 80.01 397.51) (xy 80.01 400.05)
 		)
 		(stroke
@@ -22688,16 +22544,6 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 398.78) (xy 140.97 401.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dc6e4bd5-3c0e-4476-b883-f6fca43b5ce5")
-	)
-	(wire
-		(pts
 			(xy 251.46 425.45) (xy 270.51 425.45)
 		)
 		(stroke
@@ -22799,7 +22645,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 389.89) (xy 148.59 389.89)
+			(xy 148.59 396.24) (xy 171.45 396.24)
 		)
 		(stroke
 			(width 0)
@@ -22826,16 +22672,6 @@
 			(type default)
 		)
 		(uuid "e20b54a4-fcce-4315-93ae-062ff8d04143")
-	)
-	(wire
-		(pts
-			(xy 140.97 410.21) (xy 140.97 408.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e298d54d-d4ac-446f-98f5-bbda7c29ea8f")
 	)
 	(wire
 		(pts
@@ -23219,6 +23055,16 @@
 	)
 	(wire
 		(pts
+			(xy 389.89 403.86) (xy 389.89 405.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f27d01fb-1b95-447e-9ed3-6ba0cbcff6e7")
+	)
+	(wire
+		(pts
 			(xy 547.37 356.87) (xy 565.15 356.87)
 		)
 		(stroke
@@ -23389,16 +23235,6 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 396.24) (xy 167.64 389.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fb16cc3a-ec2d-4375-8180-077a7932406c")
-	)
-	(wire
-		(pts
 			(xy 104.14 349.25) (xy 104.14 346.71)
 		)
 		(stroke
@@ -23469,7 +23305,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 402.59) (xy 119.38 410.21)
+			(xy 119.38 402.59) (xy 119.38 403.86)
 		)
 		(stroke
 			(width 0)
@@ -27191,7 +27027,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "470"
+		(property "Value" "1k"
 			(at 162.814 311.15 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27235,7 +27071,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C25117"
+		(property "LCSC" "C11702"
 			(at 165.1 312.42 90)
 			(hide yes)
 			(show_name no)
@@ -27596,7 +27432,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "298dbf0b-5357-4bf3-bf75-7c2cc400fa77")
 		(property "Reference" "C105"
 			(at 177.8 306.07 0)
@@ -28678,6 +28514,84 @@
 			(project "yanartas-pillowbox-power"
 				(path "/674ed4d1-dd9a-4005-87ec-46c2a5667653"
 					(reference "#PWR0149")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 170.18 278.13 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "38a96ace-683e-49d5-951a-98105bca234e")
+		(property "Reference" "#PWR0152"
+			(at 170.18 281.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 170.18 273.05 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 170.18 278.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 170.18 278.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 170.18 278.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b2c1e53d-0f9d-44e6-8bf1-6ac8ac6b1a02")
+		)
+		(instances
+			(project "yanartas-pillowbox-power"
+				(path "/674ed4d1-dd9a-4005-87ec-46c2a5667653"
+					(reference "#PWR0152")
 					(unit 1)
 				)
 			)
@@ -29994,7 +29908,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "470"
+		(property "Value" "1k"
 			(at 162.814 281.94 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30038,7 +29952,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C25117"
+		(property "LCSC" "C11702"
 			(at 165.1 283.21 90)
 			(hide yes)
 			(show_name no)
@@ -30561,7 +30475,7 @@
 	)
 	(symbol
 		(lib_id "Transformer:30F-51NL")
-		(at 152.4 349.25 0)
+		(at 152.4 349.25 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -30592,7 +30506,7 @@
 			)
 		)
 		(property "Footprint" "Transformer_SMD:Transformer_Ethernet_YDS_30F-51NL_SO-24_7.1x15.1mm"
-			(at 144.78 341.63 0)
+			(at 160.02 356.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30603,7 +30517,7 @@
 			)
 		)
 		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1811051610_Shanghai-YDS-Tech-30F-51NL_C123168.pdf"
-			(at 152.4 372.11 0)
+			(at 152.4 326.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32471,7 +32385,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "78982428-a693-4c7e-a5f0-e212821a67a9")
 		(property "Reference" "C107"
 			(at 177.8 320.04 0)
@@ -33121,132 +33035,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Polarized")
-		(at 140.97 405.13 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "82e82d59-d474-4e49-8090-459642f96a8f")
-		(property "Reference" "C110"
-			(at 137.16 402.9709 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "470u/25V poly"
-			(at 137.16 405.5109 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm"
-			(at 140.0048 408.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 140.97 405.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Polarized capacitor"
-			(at 140.97 405.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C696345"
-			(at 140.97 405.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mfg" "KEMET"
-			(at 140.97 405.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MfgPN" "A750MS477M1EAAE015"
-			(at 140.97 405.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Digikey" ""
-			(at 140.97 405.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "3d9d189a-436e-48b8-a6b1-c40345d2808f")
-		)
-		(pin "2"
-			(uuid "749dc409-03da-45eb-b305-2b0575368c3f")
-		)
-		(instances
-			(project "yanartas-pillowbox-power"
-				(path "/674ed4d1-dd9a-4005-87ec-46c2a5667653"
-					(reference "C110")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_name "GND_1")
 		(lib_id "power:GND")
 		(at 172.72 294.64 0)
@@ -33525,7 +33313,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "84bef319-a409-427c-b757-9e4a796bed1b")
 		(property "Reference" "C106"
 			(at 177.8 290.83 0)
@@ -33972,95 +33760,6 @@
 			(project "yanartas-pillowbox-power"
 				(path "/674ed4d1-dd9a-4005-87ec-46c2a5667653"
 					(reference "#SYM2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 170.18 278.13 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "8b2c36f1-904c-4881-93ec-f5568b6f5217")
-		(property "Reference" "#PWR0157"
-			(at 170.18 281.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3V3D"
-			(at 170.18 274.066 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 170.18 278.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 170.18 278.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 170.18 278.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Field5" ""
-			(at 170.18 278.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "575ba1a7-b954-48e7-98da-da858d411fa5")
-		)
-		(instances
-			(project "yanartas-pillowbox-power"
-				(path "/674ed4d1-dd9a-4005-87ec-46c2a5667653"
-					(reference "#PWR0157")
 					(unit 1)
 				)
 			)
@@ -35353,7 +35052,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 389.89 417.83 0)
+		(at 389.89 407.67 0)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -35361,10 +35060,10 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "99ec1855-28ad-4fbc-97cb-95bf1e7633e7")
 		(property "Reference" "C113"
-			(at 393.954 416.306 0)
+			(at 393.954 406.146 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -35373,8 +35072,8 @@
 				)
 			)
 		)
-		(property "Value" "4n7"
-			(at 396.494 418.846 0)
+		(property "Value" "220p"
+			(at 396.494 408.686 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -35384,28 +35083,6 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 389.89 417.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 389.89 417.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 389.89 407.67 0)
 			(hide yes)
 			(show_name no)
@@ -35416,8 +35093,30 @@
 				)
 			)
 		)
-		(property "LCSC" "C1538"
-			(at 389.89 417.83 0)
+		(property "Datasheet" ""
+			(at 389.89 407.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 389.89 397.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
+			(at 389.89 407.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -35428,7 +35127,7 @@
 			)
 		)
 		(property "Digikey" ""
-			(at 389.89 417.83 0)
+			(at 389.89 407.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36155,6 +35854,7 @@
 	(symbol
 		(lib_id "Transistor_FET:AO3401A")
 		(at 424.18 330.2 0)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -36162,10 +35862,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "a623d0c2-8e5f-46e8-9007-0330eaabf321")
 		(property "Reference" "Q1"
-			(at 430.53 328.9299 0)
+			(at 430.53 331.4701 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -36176,7 +35875,7 @@
 			)
 		)
 		(property "Value" "AO3401A"
-			(at 430.53 331.4699 0)
+			(at 430.53 328.9301 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -36187,7 +35886,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 429.26 332.105 0)
+			(at 429.26 328.295 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36200,7 +35899,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3401A.pdf"
-			(at 429.26 334.01 0)
+			(at 429.26 326.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -39413,7 +39112,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "470"
+		(property "Value" "1k"
 			(at 162.814 297.18 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -39457,7 +39156,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C25117"
+		(property "LCSC" "C11702"
 			(at 165.1 298.45 90)
 			(hide yes)
 			(show_name no)
@@ -40557,132 +40256,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Polarized")
-		(at 148.59 405.13 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e3195102-f546-4d84-8f48-0ac4cad1d7d6")
-		(property "Reference" "C108"
-			(at 152.4 402.9709 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "470u/25V poly"
-			(at 152.4 405.5109 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm"
-			(at 149.5552 408.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 148.59 405.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Polarized capacitor"
-			(at 148.59 405.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C696345"
-			(at 148.59 405.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mfg" "KEMET"
-			(at 148.59 405.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MfgPN" "A750MS477M1EAAE015"
-			(at 148.59 405.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Digikey" ""
-			(at 148.59 405.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "7a708c31-c3f1-4882-8071-13e38214c6aa")
-		)
-		(pin "2"
-			(uuid "8a47fdc1-a668-4259-9e97-288596b4c291")
-		)
-		(instances
-			(project "yanartas-pillowbox-power"
-				(path "/674ed4d1-dd9a-4005-87ec-46c2a5667653"
-					(reference "C108")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Small")
 		(at 187.96 407.67 0)
 		(unit 1)
@@ -41067,7 +40640,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Polarized")
-		(at 148.59 394.97 0)
+		(at 148.59 400.05 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -41078,7 +40651,7 @@
 		(fields_autoplaced yes)
 		(uuid "ea6db707-61aa-4d55-9b69-cb5d002b6029")
 		(property "Reference" "C101"
-			(at 152.4 392.8109 0)
+			(at 152.4 397.8909 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -41089,7 +40662,7 @@
 			)
 		)
 		(property "Value" "470u/25V poly"
-			(at 152.4 395.3509 0)
+			(at 152.4 400.4309 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -41100,7 +40673,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm"
-			(at 149.5552 398.78 0)
+			(at 149.5552 403.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -41111,7 +40684,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 148.59 394.97 0)
+			(at 148.59 400.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -41122,7 +40695,7 @@
 			)
 		)
 		(property "Description" "Polarized capacitor"
-			(at 148.59 394.97 0)
+			(at 148.59 400.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -41132,8 +40705,8 @@
 				)
 			)
 		)
-		(property "LCSC" "C696345"
-			(at 148.59 394.97 0)
+		(property "LCSC" "C1020051"
+			(at 148.59 400.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -41144,7 +40717,7 @@
 			)
 		)
 		(property "Mfg" "KEMET"
-			(at 148.59 394.97 0)
+			(at 148.59 400.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -41154,8 +40727,8 @@
 				)
 			)
 		)
-		(property "MfgPN" "A750MS477M1EAAE015"
-			(at 148.59 394.97 0)
+		(property "MfgPN" "A750MV477M1VAAE018"
+			(at 148.59 400.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -41166,7 +40739,7 @@
 			)
 		)
 		(property "Digikey" ""
-			(at 148.59 394.97 0)
+			(at 148.59 400.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -42068,132 +41641,6 @@
 			(project "yanartas-pillowbox-power"
 				(path "/674ed4d1-dd9a-4005-87ec-46c2a5667653"
 					(reference "#PWR0141")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Polarized")
-		(at 140.97 394.97 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "fdb2b7c7-3002-4c66-aa56-1af75ade9af2")
-		(property "Reference" "C109"
-			(at 137.16 392.8109 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "470u/25V poly"
-			(at 137.16 395.3509 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm"
-			(at 140.0048 398.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 140.97 394.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Polarized capacitor"
-			(at 140.97 394.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C696345"
-			(at 140.97 394.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mfg" "KEMET"
-			(at 140.97 394.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MfgPN" "A750MS477M1EAAE015"
-			(at 140.97 394.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Digikey" ""
-			(at 140.97 394.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "aa65de95-7e90-429c-b633-d8696755b4bb")
-		)
-		(pin "2"
-			(uuid "95eeef97-bcdc-4adf-8897-9558b81fb9f2")
-		)
-		(instances
-			(project "yanartas-pillowbox-power"
-				(path "/674ed4d1-dd9a-4005-87ec-46c2a5667653"
-					(reference "C109")
 					(unit 1)
 				)
 			)
