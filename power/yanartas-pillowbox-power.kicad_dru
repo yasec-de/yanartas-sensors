@@ -1,0 +1,7 @@
+(version 2)
+
+(rule "SD bus matching" (condition "A.NetClass == 'match_sd'") (constraint skew (max 0.5mm)))
+
+(rule "diff_90 intra-pair skew"
+    (condition "A.hasNetclass('diff_skew')")
+    (constraint skew (min -0.7ps) (opt 0ps) (max 0.7ps) (within_diff_pairs)))

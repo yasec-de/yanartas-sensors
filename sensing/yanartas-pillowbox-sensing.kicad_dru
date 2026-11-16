@@ -7,3 +7,7 @@
 (rule "diff_100 pad-to-pad clearance"
     (constraint clearance (min 0mm))
     (condition "A.Type == 'Pad' && B.Type == 'Pad' && (A.NetClass == 'diff_100' || B.NetClass == 'diff_100')"))
+
+(rule "diff_100 intra-pair skew"
+    (condition "A.hasNetclass('diff_skew_1ps')")
+    (constraint skew (min -1.0ps) (opt 0ps) (max 1.0ps) (within_diff_pairs)))
