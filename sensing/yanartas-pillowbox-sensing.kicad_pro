@@ -477,21 +477,6 @@
               "y_nm": "86300000"
             }
           }
-        },
-        {
-          "marker": {
-            "error_type": "DRCET_SKEW_OUT_OF_RANGE",
-            "items": [
-              {
-                "value": "8dce8634-d581-4cf9-9546-efddde1c9fe7"
-              }
-            ],
-            "marker_type": "MT_DRC",
-            "position": {
-              "x_nm": "150102383",
-              "y_nm": "85422017"
-            }
-          }
         }
       ],
       "meta": {
