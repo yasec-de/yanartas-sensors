@@ -4,10 +4,19 @@
 	(condition "A.isCoupledDiffPair()")
 	(constraint clearance (min 0.12mm)))
 
+(rule "spl skew"
+    (condition "A.hasNetclass('spl_skew_match')")
+    (constraint skew (min -1.0ps) (opt 0ps) (max 1.0ps)))
+
+(rule "clip line skew"
+    (condition "A.hasNetclass('clip_skew_match')")
+    (constraint skew (min -1.0ps) (opt 0ps) (max 1.0ps)))
+
 (rule "diff_100 pad-to-pad clearance"
     (constraint clearance (min 0mm))
     (condition "A.Type == 'Pad' && B.Type == 'Pad' && (A.NetClass == 'diff_100' || B.NetClass == 'diff_100')"))
 
 (rule "diff_100 intra-pair skew"
-    (condition "A.hasNetclass('diff_skew_1ps')")
+    (condition "A.hasNetclass('diff_100')")
     (constraint skew (min -1.0ps) (opt 0ps) (max 1.0ps) (within_diff_pairs)))
+
