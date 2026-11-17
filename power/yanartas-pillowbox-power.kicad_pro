@@ -157,129 +157,41 @@
         }
       ],
       "drc_exclusions": [
-        {
-          "marker": {
-            "error_type": "DRCET_LIB_FOOTPRINT_ISSUES",
-            "items": [
-              {
-                "value": "0101c93e-54c9-4101-bcc0-0fa8adc8c21f"
-              }
-            ],
-            "marker_type": "MT_DRC",
-            "position": {
-              "x_nm": "151888000",
-              "y_nm": "134918910"
-            }
-          }
-        },
-        {
-          "marker": {
-            "error_type": "DRCET_LIB_FOOTPRINT_ISSUES",
-            "items": [
-              {
-                "value": "ea097803-b7ab-42c8-a9f7-c68cf0ce2218"
-              }
-            ],
-            "marker_type": "MT_DRC",
-            "position": {
-              "x_nm": "179700000",
-              "y_nm": "64050000"
-            }
-          }
-        },
-        {
-          "marker": {
-            "error_type": "DRCET_LIB_FOOTPRINT_ISSUES",
-            "items": [
-              {
-                "value": "9e2bd5db-01bc-4360-b75d-f0b3e37bfa02"
-              }
-            ],
-            "marker_type": "MT_DRC",
-            "position": {
-              "x_nm": "172608800",
-              "y_nm": "135235355"
-            }
-          }
-        },
-        {
-          "marker": {
-            "error_type": "DRCET_LINE_WIDTH",
-            "items": [
-              {
-                "value": "c30e04fb-0bae-446d-9419-c57d3b85051d"
-              }
-            ],
-            "marker_type": "MT_DRC",
-            "position": {
-              "x_nm": "172900000",
-              "y_nm": "68000000"
-            }
-          }
-        },
-        {
-          "marker": {
-            "error_type": "DRCET_LINE_WIDTH",
-            "items": [
-              {
-                "value": "ac2a88e9-a764-4cb4-9d3b-b4b0b431f00c"
-              }
-            ],
-            "marker_type": "MT_DRC",
-            "position": {
-              "x_nm": "173000000",
-              "y_nm": "63250000"
-            }
-          }
-        },
-        {
-          "marker": {
-            "error_type": "DRCET_LINE_WIDTH",
-            "items": [
-              {
-                "value": "89a8941f-3aba-473c-8733-dea983eade4c"
-              }
-            ],
-            "marker_type": "MT_DRC",
-            "position": {
-              "x_nm": "180600000",
-              "y_nm": "131750000"
-            }
-          }
-        },
-        {
-          "marker": {
-            "error_type": "DRCET_LINE_WIDTH",
-            "items": [
-              {
-                "value": "dcbf8ac8-0a8a-4820-8d68-3596501e8cca"
-              }
-            ],
-            "marker_type": "MT_DRC",
-            "position": {
-              "x_nm": "172950000",
-              "y_nm": "66350000"
-            }
-          }
-        },
-        {
-          "marker": {
-            "error_type": "DRCET_LINE_WIDTH",
-            "items": [
-              {
-                "value": "fbe2f629-2a11-4ebd-9400-becb8822ba74"
-              }
-            ],
-            "marker_type": "MT_DRC",
-            "position": {
-              "x_nm": "100989814",
-              "y_nm": "109393519"
-            }
-          }
-        }
+        [
+          "lib_footprint_issues|151888000|134918910|0101c93e-54c9-4101-bcc0-0fa8adc8c21f|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "lib_footprint_issues|179700000|64050000|ea097803-b7ab-42c8-a9f7-c68cf0ce2218|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "lib_footprint_issues|172608800|135235355|9e2bd5db-01bc-4360-b75d-f0b3e37bfa02|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "text_thickness|172900000|68000000|c30e04fb-0bae-446d-9419-c57d3b85051d|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "text_thickness|173000000|63250000|ac2a88e9-a764-4cb4-9d3b-b4b0b431f00c|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "text_thickness|180600000|131750000|89a8941f-3aba-473c-8733-dea983eade4c|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "text_thickness|172950000|66350000|dcbf8ac8-0a8a-4820-8d68-3596501e8cca|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "text_thickness|100989814|109393519|fbe2f629-2a11-4ebd-9400-becb8822ba74|00000000-0000-0000-0000-000000000000",
+          ""
+        ]
       ],
       "meta": {
-        "version": 4
+        "version": 2
       },
       "rule_severities": {
         "annular_width": "error",
@@ -313,7 +225,6 @@
         "length_out_of_range": "error",
         "lib_footprint_issues": "warning",
         "lib_footprint_mismatch": "warning",
-        "line_width": "warning",
         "malformed_courtyard": "error",
         "malformed_microvia_stack_span": "error",
         "microvia_crosses_core": "warning",
@@ -371,7 +282,6 @@
         "min_microvia_drill": 0.1,
         "min_resolved_spokes": 2,
         "min_silk_clearance": 0.0,
-        "min_silk_line_width": 0.08,
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
         "min_through_hole_diameter": 0.3,
@@ -554,7 +464,7 @@
   "erc": {
     "erc_exclusions": [],
     "meta": {
-      "version": 1
+      "version": 0
     },
     "pin_map": [
       [
@@ -798,7 +708,7 @@
   },
   "meta": {
     "filename": "yanartas-pillowbox-power.kicad_pro",
-    "version": 4
+    "version": 3
   },
   "net_settings": {
     "classes": [
@@ -1318,12 +1228,11 @@
   "text_variables": {},
   "tuning_profiles": {
     "meta": {
-      "version": 2
+      "version": 0
     },
     "tuning_profiles_impedance_geometric": [
       {
         "enable_time_domain_tuning": false,
-        "frequency": 1000000000.0,
         "layer_entries": [
           {
             "bottom_reference_layer": "In1.Cu",
@@ -1342,8 +1251,6 @@
             "width": 359000
           }
         ],
-        "model_solder_mask": true,
-        "net_chain_bridge_prop_delay": 6200000,
         "profile_name": "SD_50",
         "target_impedance": 50.0,
         "type": 0,
@@ -1352,7 +1259,6 @@
       },
       {
         "enable_time_domain_tuning": true,
-        "frequency": 1000000000.0,
         "layer_entries": [
           {
             "bottom_reference_layer": "In1.Cu",
@@ -1371,8 +1277,6 @@
             "width": 247400
           }
         ],
-        "model_solder_mask": true,
-        "net_chain_bridge_prop_delay": 5800000,
         "profile_name": "DP_90",
         "target_impedance": 90.0,
         "type": 1,

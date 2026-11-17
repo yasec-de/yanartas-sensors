@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20261106)
+	(version 20260306)
 	(generator "eeschema")
-	(generator_version "10.99")
+	(generator_version "10.0")
 	(uuid "674ed4d1-dd9a-4005-87ec-46c2a5667653")
 	(paper "A1")
 	(lib_symbols
@@ -13545,163 +13545,433 @@
 	)
 	(bezier
 		(pts
-			(xy 666.75 304.8) (xy 672.462 304.8) (xy 671.468 314.96) (xy 678.18 314.96)
+			(xy 667.249 304.8272) (xy 672.1297 305.3725) (xy 671.7331 313.9517) (xy 677.1845 314.8789)
 		)
 		(stroke
 			(width 0.2)
 			(type solid)
 			(color 196 106 18 1)
 		)
-		(start_shape circle)
-		(end_shape arrow)
 		(fill
 			(type none)
 		)
 		(uuid "07fa6ccf-72d1-4a41-9873-49cfefd120c7")
 	)
+	(circle
+		(center 666.75 304.8)
+		(radius 0.5)
+		(stroke
+			(width -0.0001)
+			(type solid)
+			(color 196 106 18 1)
+		)
+		(fill
+			(type color)
+			(color 196 106 18 1)
+		)
+		(uuid "b4eb5d89-e767-5895-876b-3cb408a8632a")
+	)
+	(polyline
+		(pts
+			(xy 678.18 314.96) (xy 677.1427 315.3772) (xy 677.2239 314.3805) (xy 678.18 314.96)
+		)
+		(stroke
+			(width -0.0001)
+			(type solid)
+			(color 196 106 18 1)
+		)
+		(fill
+			(type color)
+			(color 196 106 18 1)
+		)
+		(uuid "00865f2d-f3c6-5243-b58b-4d216b17443b")
+	)
 	(bezier
 		(pts
-			(xy 666.75 309.88) (xy 674.37 309.88) (xy 671.83 299.72) (xy 678.18 299.72)
+			(xy 667.7472 309.8164) (xy 673.9704 308.9833) (xy 672.2337 300.2408) (xy 677.6807 299.7422)
 		)
 		(stroke
 			(width 0.2)
 			(type dash)
 			(color 37 99 196 1)
 		)
-		(start_shape arrow)
-		(end_shape circle)
 		(fill
 			(type none)
 		)
 		(uuid "155c52a7-25f8-40f7-bad7-3f5c2f5a3a42")
 	)
+	(polyline
+		(pts
+			(xy 666.75 309.88) (xy 667.7161 309.3173) (xy 667.7798 310.3153) (xy 666.75 309.88)
+		)
+		(stroke
+			(width -0.0001)
+			(type solid)
+			(color 37 99 196 1)
+		)
+		(fill
+			(type color)
+			(color 37 99 196 1)
+		)
+		(uuid "2153a8eb-5766-5ffa-b433-39e61fb22ba4")
+	)
+	(circle
+		(center 678.18 299.72)
+		(radius 0.5)
+		(stroke
+			(width -0.0001)
+			(type solid)
+			(color 37 99 196 1)
+		)
+		(fill
+			(type color)
+			(color 37 99 196 1)
+		)
+		(uuid "dad0a3d7-e0b9-565c-a284-f7d9a5a6373e")
+	)
 	(bezier
 		(pts
-			(xy 666.75 312.42) (xy 674.37 312.42) (xy 671.83 302.26) (xy 678.18 302.26)
+			(xy 667.7472 312.3564) (xy 673.9704 311.5233) (xy 672.2337 302.7808) (xy 677.6807 302.2822)
 		)
 		(stroke
 			(width 0.2)
 			(type dash)
 			(color 37 99 196 1)
 		)
-		(start_shape arrow)
-		(end_shape circle)
 		(fill
 			(type none)
 		)
 		(uuid "234c8501-f588-488b-80b7-236dccd9126b")
 	)
+	(polyline
+		(pts
+			(xy 666.75 312.42) (xy 667.7161 311.8573) (xy 667.7798 312.8553) (xy 666.75 312.42)
+		)
+		(stroke
+			(width -0.0001)
+			(type solid)
+			(color 37 99 196 1)
+		)
+		(fill
+			(type color)
+			(color 37 99 196 1)
+		)
+		(uuid "006e3047-0d96-5128-ac26-5c56745134d5")
+	)
+	(circle
+		(center 678.18 302.26)
+		(radius 0.5)
+		(stroke
+			(width -0.0001)
+			(type solid)
+			(color 37 99 196 1)
+		)
+		(fill
+			(type color)
+			(color 37 99 196 1)
+		)
+		(uuid "c8dd594b-7daa-5bfd-a0d5-3a70fa31794e")
+	)
 	(bezier
 		(pts
-			(xy 666.75 302.26) (xy 672.212 302.26) (xy 670.31 307.34) (xy 678.18 307.34)
+			(xy 667.2497 302.2751) (xy 671.8766 302.5642) (xy 670.6892 306.9093) (xy 677.1806 307.3104)
 		)
 		(stroke
 			(width 0.2)
 			(type solid)
 			(color 37 99 196 1)
 		)
-		(start_shape circle)
-		(end_shape arrow)
 		(fill
 			(type none)
 		)
 		(uuid "4ad236fd-fbdc-4a69-9427-61cb46c86caa")
 	)
+	(circle
+		(center 666.75 302.26)
+		(radius 0.5)
+		(stroke
+			(width -0.0001)
+			(type solid)
+			(color 37 99 196 1)
+		)
+		(fill
+			(type color)
+			(color 37 99 196 1)
+		)
+		(uuid "172945c2-487e-5eff-a121-df9a3e884e5f")
+	)
+	(polyline
+		(pts
+			(xy 678.18 307.34) (xy 677.1656 307.8102) (xy 677.1952 306.8106) (xy 678.18 307.34)
+		)
+		(stroke
+			(width -0.0001)
+			(type solid)
+			(color 37 99 196 1)
+		)
+		(fill
+			(type color)
+			(color 37 99 196 1)
+		)
+		(uuid "e70e1a6d-11ad-5fa9-8b6e-d744adf68a27")
+	)
 	(bezier
 		(pts
-			(xy 666.73 187.96) (xy 672.192 187.96) (xy 671.198 182.88) (xy 678.18 182.88)
+			(xy 667.7273 187.8971) (xy 671.981 187.3296) (xy 671.6766 183.1103) (xy 677.6801 182.889)
 		)
 		(stroke
 			(width 0.2)
 			(type dash)
 			(color 196 106 18 1)
 		)
-		(start_shape arrow)
-		(end_shape circle)
 		(fill
 			(type none)
 		)
 		(uuid "67535523-3e33-4994-9b05-2f3273bd5e25")
 	)
+	(polyline
+		(pts
+			(xy 666.73 187.96) (xy 667.6965 187.398) (xy 667.7595 188.396) (xy 666.73 187.96)
+		)
+		(stroke
+			(width -0.0001)
+			(type solid)
+			(color 196 106 18 1)
+		)
+		(fill
+			(type color)
+			(color 196 106 18 1)
+		)
+		(uuid "ad267bb8-e789-5418-ba1f-7a8f14f0c78e")
+	)
+	(circle
+		(center 678.18 182.88)
+		(radius 0.5)
+		(stroke
+			(width -0.0001)
+			(type solid)
+			(color 196 106 18 1)
+		)
+		(fill
+			(type color)
+			(color 196 106 18 1)
+		)
+		(uuid "eeb9d857-f85d-5679-97aa-38a8b3bc3c80")
+	)
 	(bezier
 		(pts
-			(xy 666.73 317.5) (xy 672.192 317.5) (xy 671.198 312.42) (xy 678.18 312.42)
+			(xy 667.7273 317.4371) (xy 671.981 316.8696) (xy 671.6766 312.6503) (xy 677.6801 312.429)
 		)
 		(stroke
 			(width 0.2)
 			(type dash)
 			(color 196 106 18 1)
 		)
-		(start_shape arrow)
-		(end_shape circle)
 		(fill
 			(type none)
 		)
 		(uuid "6b094f73-d680-4e45-b912-73b8ab69974a")
 	)
+	(polyline
+		(pts
+			(xy 666.73 317.5) (xy 667.6965 316.938) (xy 667.7595 317.936) (xy 666.73 317.5)
+		)
+		(stroke
+			(width -0.0001)
+			(type solid)
+			(color 196 106 18 1)
+		)
+		(fill
+			(type color)
+			(color 196 106 18 1)
+		)
+		(uuid "b8241d40-c979-5488-b9ef-330b8ed0a007")
+	)
+	(circle
+		(center 678.18 312.42)
+		(radius 0.5)
+		(stroke
+			(width -0.0001)
+			(type solid)
+			(color 196 106 18 1)
+		)
+		(fill
+			(type color)
+			(color 196 106 18 1)
+		)
+		(uuid "1f7def4b-04e7-544d-b034-343c07f496fc")
+	)
 	(bezier
 		(pts
-			(xy 666.75 307.34) (xy 672.462 307.34) (xy 671.468 317.5) (xy 678.18 317.5)
+			(xy 667.249 307.3672) (xy 672.1297 307.9125) (xy 671.7331 316.4917) (xy 677.1845 317.4189)
 		)
 		(stroke
 			(width 0.2)
 			(type solid)
 			(color 196 106 18 1)
 		)
-		(start_shape circle)
-		(end_shape arrow)
 		(fill
 			(type none)
 		)
 		(uuid "6dd9168e-11ea-4b99-9e54-fd25d62b17ed")
 	)
+	(circle
+		(center 666.75 307.34)
+		(radius 0.5)
+		(stroke
+			(width -0.0001)
+			(type solid)
+			(color 196 106 18 1)
+		)
+		(fill
+			(type color)
+			(color 196 106 18 1)
+		)
+		(uuid "d065e4bf-bcee-5e78-a1f2-a7512be9faab")
+	)
+	(polyline
+		(pts
+			(xy 678.18 317.5) (xy 677.1427 317.9172) (xy 677.2239 316.9205) (xy 678.18 317.5)
+		)
+		(stroke
+			(width -0.0001)
+			(type solid)
+			(color 196 106 18 1)
+		)
+		(fill
+			(type color)
+			(color 196 106 18 1)
+		)
+		(uuid "d1d59915-44b5-512f-b80e-ad6f2ff1b34e")
+	)
 	(bezier
 		(pts
-			(xy 666.75 175.26) (xy 672.462 175.26) (xy 671.468 185.42) (xy 678.18 185.42)
+			(xy 667.249 175.2872) (xy 672.1297 175.8325) (xy 671.7331 184.4117) (xy 677.1845 185.3389)
 		)
 		(stroke
 			(width 0.2)
 			(type solid)
 			(color 196 106 18 1)
 		)
-		(start_shape circle)
-		(end_shape arrow)
 		(fill
 			(type none)
 		)
 		(uuid "77730895-447a-43fb-98cc-939e9ac3517d")
 	)
+	(circle
+		(center 666.75 175.26)
+		(radius 0.5)
+		(stroke
+			(width -0.0001)
+			(type solid)
+			(color 196 106 18 1)
+		)
+		(fill
+			(type color)
+			(color 196 106 18 1)
+		)
+		(uuid "992be6f7-518e-51c8-a6c7-6583548635d9")
+	)
+	(polyline
+		(pts
+			(xy 678.18 185.42) (xy 677.1427 185.8372) (xy 677.2239 184.8405) (xy 678.18 185.42)
+		)
+		(stroke
+			(width -0.0001)
+			(type solid)
+			(color 196 106 18 1)
+		)
+		(fill
+			(type color)
+			(color 196 106 18 1)
+		)
+		(uuid "43028d26-1467-5c8c-b198-b64f3c6b3266")
+	)
 	(bezier
 		(pts
-			(xy 666.73 314.96) (xy 672.192 314.96) (xy 671.198 309.88) (xy 678.18 309.88)
+			(xy 667.7273 314.8971) (xy 671.981 314.3296) (xy 671.6766 310.1103) (xy 677.6801 309.889)
 		)
 		(stroke
 			(width 0.2)
 			(type dash)
 			(color 196 106 18 1)
 		)
-		(start_shape arrow)
-		(end_shape circle)
 		(fill
 			(type none)
 		)
 		(uuid "83917e88-f89a-42bd-aa16-d6f93821e168")
 	)
+	(polyline
+		(pts
+			(xy 666.73 314.96) (xy 667.6965 314.398) (xy 667.7595 315.396) (xy 666.73 314.96)
+		)
+		(stroke
+			(width -0.0001)
+			(type solid)
+			(color 196 106 18 1)
+		)
+		(fill
+			(type color)
+			(color 196 106 18 1)
+		)
+		(uuid "8dfc3265-d86a-5106-aa8f-85a548a2be0d")
+	)
+	(circle
+		(center 678.18 309.88)
+		(radius 0.5)
+		(stroke
+			(width -0.0001)
+			(type solid)
+			(color 196 106 18 1)
+		)
+		(fill
+			(type color)
+			(color 196 106 18 1)
+		)
+		(uuid "fff0b21c-1226-50f8-b1b3-1a92373906af")
+	)
 	(bezier
 		(pts
-			(xy 666.73 185.42) (xy 672.192 185.42) (xy 671.198 180.34) (xy 678.18 180.34)
+			(xy 667.7273 185.3571) (xy 671.981 184.7896) (xy 671.6766 180.5703) (xy 677.6801 180.349)
 		)
 		(stroke
 			(width 0.2)
 			(type dash)
 			(color 196 106 18 1)
 		)
-		(start_shape arrow)
-		(end_shape circle)
 		(fill
 			(type none)
 		)
 		(uuid "90ae30ee-86e8-4143-af74-de56fb824a07")
+	)
+	(polyline
+		(pts
+			(xy 666.73 185.42) (xy 667.6965 184.858) (xy 667.7595 185.856) (xy 666.73 185.42)
+		)
+		(stroke
+			(width -0.0001)
+			(type solid)
+			(color 196 106 18 1)
+		)
+		(fill
+			(type color)
+			(color 196 106 18 1)
+		)
+		(uuid "053ffeec-215b-5c0d-b909-7ebf447f5d94")
+	)
+	(circle
+		(center 678.18 180.34)
+		(radius 0.5)
+		(stroke
+			(width -0.0001)
+			(type solid)
+			(color 196 106 18 1)
+		)
+		(fill
+			(type color)
+			(color 196 106 18 1)
+		)
+		(uuid "bb5dc54b-ffa8-5c4a-9900-6d79d668e135")
 	)
 	(rectangle
 		(start 666.75 167.64)
@@ -13717,19 +13987,46 @@
 	)
 	(bezier
 		(pts
-			(xy 666.75 299.72) (xy 672.462 299.72) (xy 670.56 304.8) (xy 678.18 304.8)
+			(xy 667.2497 299.7338) (xy 672.1114 300.01) (xy 670.9256 304.3539) (xy 677.1807 304.7683)
 		)
 		(stroke
 			(width 0.2)
 			(type solid)
 			(color 37 99 196 1)
 		)
-		(start_shape circle)
-		(end_shape arrow)
 		(fill
 			(type none)
 		)
 		(uuid "adda6a50-c1d1-4bb3-9874-56caeb65cc0f")
+	)
+	(circle
+		(center 666.75 299.72)
+		(radius 0.5)
+		(stroke
+			(width -0.0001)
+			(type solid)
+			(color 37 99 196 1)
+		)
+		(fill
+			(type color)
+			(color 37 99 196 1)
+		)
+		(uuid "e66db16d-5422-5bf0-8818-3a0aa6c04426")
+	)
+	(polyline
+		(pts
+			(xy 678.18 304.8) (xy 677.1647 305.2681) (xy 677.1964 304.2686) (xy 678.18 304.8)
+		)
+		(stroke
+			(width -0.0001)
+			(type solid)
+			(color 37 99 196 1)
+		)
+		(fill
+			(type color)
+			(color 37 99 196 1)
+		)
+		(uuid "6517cc42-b44b-526e-91fa-d77fab3a79a3")
 	)
 	(rectangle
 		(start 666.75 297.18)
@@ -13745,83 +14042,218 @@
 	)
 	(bezier
 		(pts
-			(xy 666.75 180.34) (xy 674.37 180.34) (xy 671.83 170.18) (xy 678.18 170.18)
+			(xy 667.7472 180.2764) (xy 673.9704 179.4433) (xy 672.2337 170.7008) (xy 677.6807 170.2022)
 		)
 		(stroke
 			(width 0.2)
 			(type dash)
 			(color 37 99 196 1)
 		)
-		(start_shape arrow)
-		(end_shape circle)
 		(fill
 			(type none)
 		)
 		(uuid "c895f370-fe02-4153-87db-e32f3e0fd597")
 	)
+	(polyline
+		(pts
+			(xy 666.75 180.34) (xy 667.7161 179.7773) (xy 667.7798 180.7753) (xy 666.75 180.34)
+		)
+		(stroke
+			(width -0.0001)
+			(type solid)
+			(color 37 99 196 1)
+		)
+		(fill
+			(type color)
+			(color 37 99 196 1)
+		)
+		(uuid "640f97c0-114c-5bbb-a86c-c4c978123ada")
+	)
+	(circle
+		(center 678.18 170.18)
+		(radius 0.5)
+		(stroke
+			(width -0.0001)
+			(type solid)
+			(color 37 99 196 1)
+		)
+		(fill
+			(type color)
+			(color 37 99 196 1)
+		)
+		(uuid "2d7446f7-3cb6-55c6-8beb-f589a9048e5e")
+	)
 	(bezier
 		(pts
-			(xy 666.75 177.8) (xy 672.462 177.8) (xy 671.468 187.96) (xy 678.18 187.96)
+			(xy 667.249 177.8272) (xy 672.1297 178.3725) (xy 671.7331 186.9517) (xy 677.1845 187.8789)
 		)
 		(stroke
 			(width 0.2)
 			(type solid)
 			(color 196 106 18 1)
 		)
-		(start_shape circle)
-		(end_shape arrow)
 		(fill
 			(type none)
 		)
 		(uuid "d2efbd04-8ee1-49a7-9fb8-239fa1645e02")
 	)
+	(circle
+		(center 666.75 177.8)
+		(radius 0.5)
+		(stroke
+			(width -0.0001)
+			(type solid)
+			(color 196 106 18 1)
+		)
+		(fill
+			(type color)
+			(color 196 106 18 1)
+		)
+		(uuid "4bf7f00d-aff7-59c6-a72b-d4c1bdf346d4")
+	)
+	(polyline
+		(pts
+			(xy 678.18 187.96) (xy 677.1427 188.3772) (xy 677.2239 187.3805) (xy 678.18 187.96)
+		)
+		(stroke
+			(width -0.0001)
+			(type solid)
+			(color 196 106 18 1)
+		)
+		(fill
+			(type color)
+			(color 196 106 18 1)
+		)
+		(uuid "02813e88-551e-57b5-ac87-71992ff96240")
+	)
 	(bezier
 		(pts
-			(xy 666.75 170.18) (xy 672.462 170.18) (xy 670.56 175.26) (xy 678.18 175.26)
+			(xy 667.2497 170.1938) (xy 672.1114 170.47) (xy 670.9256 174.8139) (xy 677.1807 175.2283)
 		)
 		(stroke
 			(width 0.2)
 			(type solid)
 			(color 37 99 196 1)
 		)
-		(start_shape circle)
-		(end_shape arrow)
 		(fill
 			(type none)
 		)
 		(uuid "f74160fb-7095-486a-8664-d742c1e11a09")
 	)
+	(circle
+		(center 666.75 170.18)
+		(radius 0.5)
+		(stroke
+			(width -0.0001)
+			(type solid)
+			(color 37 99 196 1)
+		)
+		(fill
+			(type color)
+			(color 37 99 196 1)
+		)
+		(uuid "ffd7c009-9533-5fe4-9feb-c34a3303be92")
+	)
+	(polyline
+		(pts
+			(xy 678.18 175.26) (xy 677.1647 175.7281) (xy 677.1964 174.7286) (xy 678.18 175.26)
+		)
+		(stroke
+			(width -0.0001)
+			(type solid)
+			(color 37 99 196 1)
+		)
+		(fill
+			(type color)
+			(color 37 99 196 1)
+		)
+		(uuid "bfe1a435-b90b-544d-9d53-8223031f0ed5")
+	)
 	(bezier
 		(pts
-			(xy 666.75 182.88) (xy 674.37 182.88) (xy 671.83 172.72) (xy 678.18 172.72)
+			(xy 667.7472 182.8164) (xy 673.9704 181.9833) (xy 672.2337 173.2408) (xy 677.6807 172.7422)
 		)
 		(stroke
 			(width 0.2)
 			(type dash)
 			(color 37 99 196 1)
 		)
-		(start_shape arrow)
-		(end_shape circle)
 		(fill
 			(type none)
 		)
 		(uuid "f8911d17-b7b3-4c7d-a3d9-7c8aeb7f9139")
 	)
+	(polyline
+		(pts
+			(xy 666.75 182.88) (xy 667.7161 182.3173) (xy 667.7798 183.3153) (xy 666.75 182.88)
+		)
+		(stroke
+			(width -0.0001)
+			(type solid)
+			(color 37 99 196 1)
+		)
+		(fill
+			(type color)
+			(color 37 99 196 1)
+		)
+		(uuid "89ce19ee-a69e-56fc-929c-f62ea22c65a7")
+	)
+	(circle
+		(center 678.18 172.72)
+		(radius 0.5)
+		(stroke
+			(width -0.0001)
+			(type solid)
+			(color 37 99 196 1)
+		)
+		(fill
+			(type color)
+			(color 37 99 196 1)
+		)
+		(uuid "621ab203-e399-5f15-915d-88db27465e8b")
+	)
 	(bezier
 		(pts
-			(xy 666.75 172.72) (xy 672.212 172.72) (xy 670.31 177.8) (xy 678.18 177.8)
+			(xy 667.2497 172.7351) (xy 671.8766 173.0242) (xy 670.6892 177.3693) (xy 677.1806 177.7704)
 		)
 		(stroke
 			(width 0.2)
 			(type solid)
 			(color 37 99 196 1)
 		)
-		(start_shape circle)
-		(end_shape arrow)
 		(fill
 			(type none)
 		)
 		(uuid "f9a642d8-be84-4291-8393-38d0ec7b2e63")
+	)
+	(circle
+		(center 666.75 172.72)
+		(radius 0.5)
+		(stroke
+			(width -0.0001)
+			(type solid)
+			(color 37 99 196 1)
+		)
+		(fill
+			(type color)
+			(color 37 99 196 1)
+		)
+		(uuid "f13ef004-63b2-5873-899e-308c8944c58b")
+	)
+	(polyline
+		(pts
+			(xy 678.18 177.8) (xy 677.1656 178.2702) (xy 677.1952 177.2706) (xy 678.18 177.8)
+		)
+		(stroke
+			(width -0.0001)
+			(type solid)
+			(color 37 99 196 1)
+		)
+		(fill
+			(type color)
+			(color 37 99 196 1)
+		)
+		(uuid "b043ca50-eaab-5ccc-80a4-8314098a4ff7")
 	)
 	(text "Selects termination, and flips mesh send/return"
 		(exclude_from_sim no)

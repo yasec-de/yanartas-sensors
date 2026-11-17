@@ -221,266 +221,69 @@
         }
       ],
       "drc_exclusions": [
-        {
-          "marker": {
-            "error_type": "DRCET_STARVED_THERMAL",
-            "items": [
-              {
-                "value": "21e4ee80-b306-4615-8cec-8d66166b4fd1"
-              },
-              {
-                "value": "ee869c14-f578-477d-88f8-ec5158d30a61"
-              }
-            ],
-            "layer": "BL_B_Cu",
-            "marker_type": "MT_DRC",
-            "position": {
-              "x_nm": "170020000",
-              "y_nm": "83600000"
-            }
-          }
-        },
-        {
-          "marker": {
-            "error_type": "DRCET_STARVED_THERMAL",
-            "items": [
-              {
-                "value": "21e4ee80-b306-4615-8cec-8d66166b4fd1"
-              },
-              {
-                "value": "5bb67112-d698-4e03-aec3-dd63c393e7f9"
-              }
-            ],
-            "layer": "BL_B_Cu",
-            "marker_type": "MT_DRC",
-            "position": {
-              "x_nm": "170020000",
-              "y_nm": "81300000"
-            }
-          }
-        },
-        {
-          "marker": {
-            "error_type": "DRCET_STARVED_THERMAL",
-            "items": [
-              {
-                "value": "21e4ee80-b306-4615-8cec-8d66166b4fd1"
-              },
-              {
-                "value": "ab994c3b-04b7-49b2-8453-cb137abfc5fc"
-              }
-            ],
-            "layer": "BL_B_Cu",
-            "marker_type": "MT_DRC",
-            "position": {
-              "x_nm": "168980000",
-              "y_nm": "84100000"
-            }
-          }
-        },
-        {
-          "marker": {
-            "error_type": "DRCET_STARVED_THERMAL",
-            "items": [
-              {
-                "value": "21e4ee80-b306-4615-8cec-8d66166b4fd1"
-              },
-              {
-                "value": "c236317b-165f-4f51-b32d-b923c83a866e"
-              }
-            ],
-            "layer": "BL_B_Cu",
-            "marker_type": "MT_DRC",
-            "position": {
-              "x_nm": "168950000",
-              "y_nm": "84240000"
-            }
-          }
-        },
-        {
-          "marker": {
-            "error_type": "DRCET_STARVED_THERMAL",
-            "items": [
-              {
-                "value": "21e4ee80-b306-4615-8cec-8d66166b4fd1"
-              },
-              {
-                "value": "d530dd06-39ea-4d37-b0c0-d9b1ce2f80e6"
-              }
-            ],
-            "layer": "BL_B_Cu",
-            "marker_type": "MT_DRC",
-            "position": {
-              "x_nm": "168950000",
-              "y_nm": "83100000"
-            }
-          }
-        },
-        {
-          "marker": {
-            "error_type": "DRCET_PTH_IN_COURTYARD",
-            "items": [
-              {
-                "value": "ac016609-cb76-4fc1-9638-14e67cecd070"
-              },
-              {
-                "value": "cc0428f7-6918-474b-9e8e-560a2cfe8cff"
-              }
-            ],
-            "marker_type": "MT_DRC",
-            "position": {
-              "x_nm": "140262500",
-              "y_nm": "74900000"
-            }
-          }
-        },
-        {
-          "marker": {
-            "error_type": "DRCET_PTH_IN_COURTYARD",
-            "items": [
-              {
-                "value": "ac016609-cb76-4fc1-9638-14e67cecd070"
-              },
-              {
-                "value": "dc0e4bda-481e-4f1a-a46c-0e486126e31c"
-              }
-            ],
-            "marker_type": "MT_DRC",
-            "position": {
-              "x_nm": "140262500",
-              "y_nm": "74900000"
-            }
-          }
-        },
-        {
-          "marker": {
-            "error_type": "DRCET_PTH_IN_COURTYARD",
-            "items": [
-              {
-                "value": "b8eacfbe-e490-4359-a57a-5d0f83e2eb64"
-              },
-              {
-                "value": "7d6e00c9-10c8-446c-a867-f3bd57fb2c7e"
-              }
-            ],
-            "marker_type": "MT_DRC",
-            "position": {
-              "x_nm": "140550000",
-              "y_nm": "63650000"
-            }
-          }
-        },
-        {
-          "marker": {
-            "error_type": "DRCET_PTH_IN_COURTYARD",
-            "items": [
-              {
-                "value": "b8eacfbe-e490-4359-a57a-5d0f83e2eb64"
-              },
-              {
-                "value": "a5df12f1-3701-4a17-900c-3de1ee8b5392"
-              }
-            ],
-            "marker_type": "MT_DRC",
-            "position": {
-              "x_nm": "140550000",
-              "y_nm": "63650000"
-            }
-          }
-        },
-        {
-          "marker": {
-            "error_type": "DRCET_LINE_WIDTH",
-            "items": [
-              {
-                "value": "77cd1fcc-a145-4b0f-b578-cbade18939e1"
-              }
-            ],
-            "marker_type": "MT_DRC",
-            "position": {
-              "x_nm": "154400000",
-              "y_nm": "54000000"
-            }
-          }
-        },
-        {
-          "marker": {
-            "error_type": "DRCET_LINE_WIDTH",
-            "items": [
-              {
-                "value": "05915dc8-175f-40a0-8650-d57ce8008b9d"
-              }
-            ],
-            "marker_type": "MT_DRC",
-            "position": {
-              "x_nm": "184500000",
-              "y_nm": "86400000"
-            }
-          }
-        },
-        {
-          "marker": {
-            "error_type": "DRCET_LINE_WIDTH",
-            "items": [
-              {
-                "value": "67d3790d-bad2-486d-a89a-396959415520"
-              }
-            ],
-            "marker_type": "MT_DRC",
-            "position": {
-              "x_nm": "181400000",
-              "y_nm": "86350000"
-            }
-          }
-        },
-        {
-          "marker": {
-            "error_type": "DRCET_LINE_WIDTH",
-            "items": [
-              {
-                "value": "561cd6fc-f74a-44e5-83b0-71d4047ef785"
-              }
-            ],
-            "marker_type": "MT_DRC",
-            "position": {
-              "x_nm": "107985355",
-              "y_nm": "96291200"
-            }
-          }
-        },
-        {
-          "marker": {
-            "error_type": "DRCET_LINE_WIDTH",
-            "items": [
-              {
-                "value": "62ab38d3-93cd-4327-8c54-c3219d1fd678"
-              }
-            ],
-            "marker_type": "MT_DRC",
-            "position": {
-              "x_nm": "100700000",
-              "y_nm": "52800000"
-            }
-          }
-        },
-        {
-          "marker": {
-            "error_type": "DRCET_LINE_WIDTH",
-            "items": [
-              {
-                "value": "6d5b1c06-beac-480b-91c3-a949c9040b2e"
-              }
-            ],
-            "marker_type": "MT_DRC",
-            "position": {
-              "x_nm": "179750000",
-              "y_nm": "86300000"
-            }
-          }
-        }
+        [
+          "starved_thermal|170020000|83600000|21e4ee80-b306-4615-8cec-8d66166b4fd1|ee869c14-f578-477d-88f8-ec5158d30a61|B.Cu",
+          ""
+        ],
+        [
+          "starved_thermal|170020000|81300000|21e4ee80-b306-4615-8cec-8d66166b4fd1|5bb67112-d698-4e03-aec3-dd63c393e7f9|B.Cu",
+          ""
+        ],
+        [
+          "starved_thermal|168980000|84100000|21e4ee80-b306-4615-8cec-8d66166b4fd1|ab994c3b-04b7-49b2-8453-cb137abfc5fc|B.Cu",
+          ""
+        ],
+        [
+          "starved_thermal|168950000|84240000|21e4ee80-b306-4615-8cec-8d66166b4fd1|c236317b-165f-4f51-b32d-b923c83a866e|B.Cu",
+          ""
+        ],
+        [
+          "starved_thermal|168950000|83100000|21e4ee80-b306-4615-8cec-8d66166b4fd1|d530dd06-39ea-4d37-b0c0-d9b1ce2f80e6|B.Cu",
+          ""
+        ],
+        [
+          "pth_inside_courtyard|140262500|74900000|ac016609-cb76-4fc1-9638-14e67cecd070|cc0428f7-6918-474b-9e8e-560a2cfe8cff",
+          ""
+        ],
+        [
+          "pth_inside_courtyard|140262500|74900000|ac016609-cb76-4fc1-9638-14e67cecd070|dc0e4bda-481e-4f1a-a46c-0e486126e31c",
+          ""
+        ],
+        [
+          "pth_inside_courtyard|140550000|63650000|b8eacfbe-e490-4359-a57a-5d0f83e2eb64|7d6e00c9-10c8-446c-a867-f3bd57fb2c7e",
+          ""
+        ],
+        [
+          "pth_inside_courtyard|140550000|63650000|b8eacfbe-e490-4359-a57a-5d0f83e2eb64|a5df12f1-3701-4a17-900c-3de1ee8b5392",
+          ""
+        ],
+        [
+          "text_thickness|154400000|54000000|77cd1fcc-a145-4b0f-b578-cbade18939e1|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "text_thickness|184500000|86400000|05915dc8-175f-40a0-8650-d57ce8008b9d|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "text_thickness|181400000|86350000|67d3790d-bad2-486d-a89a-396959415520|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "text_thickness|107985355|96291200|561cd6fc-f74a-44e5-83b0-71d4047ef785|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "text_thickness|100700000|52800000|62ab38d3-93cd-4327-8c54-c3219d1fd678|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "text_thickness|179750000|86300000|6d5b1c06-beac-480b-91c3-a949c9040b2e|00000000-0000-0000-0000-000000000000",
+          ""
+        ]
       ],
       "meta": {
-        "version": 4
+        "version": 2
       },
       "rule_severities": {
         "annular_width": "error",
@@ -514,7 +317,6 @@
         "length_out_of_range": "error",
         "lib_footprint_issues": "warning",
         "lib_footprint_mismatch": "warning",
-        "line_width": "warning",
         "malformed_courtyard": "error",
         "malformed_microvia_stack_span": "error",
         "microvia_crosses_core": "warning",
@@ -572,7 +374,6 @@
         "min_microvia_drill": 0.1,
         "min_resolved_spokes": 2,
         "min_silk_clearance": 0.0,
-        "min_silk_line_width": 0.08,
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
         "min_through_hole_diameter": 0.2,
@@ -736,7 +537,7 @@
   "erc": {
     "erc_exclusions": [],
     "meta": {
-      "version": 1
+      "version": 0
     },
     "pin_map": [
       [
@@ -980,7 +781,7 @@
   },
   "meta": {
     "filename": "yanartas-pillowbox-sensing.kicad_pro",
-    "version": 4
+    "version": 3
   },
   "net_settings": {
     "classes": [
@@ -1978,12 +1779,11 @@
   "text_variables": {},
   "tuning_profiles": {
     "meta": {
-      "version": 2
+      "version": 0
     },
     "tuning_profiles_impedance_geometric": [
       {
         "enable_time_domain_tuning": true,
-        "frequency": 1000000000.0,
         "layer_entries": [
           {
             "bottom_reference_layer": "In1.Cu",
@@ -2002,8 +1802,6 @@
             "width": 358600
           }
         ],
-        "model_solder_mask": true,
-        "net_chain_bridge_prop_delay": 5800000,
         "profile_name": "SE_50",
         "target_impedance": 50.0,
         "type": 0,
@@ -2012,7 +1810,6 @@
       },
       {
         "enable_time_domain_tuning": true,
-        "frequency": 1000000000.0,
         "layer_entries": [
           {
             "bottom_reference_layer": "In1.Cu",
@@ -2031,8 +1828,6 @@
             "width": 153700
           }
         ],
-        "model_solder_mask": true,
-        "net_chain_bridge_prop_delay": 5800000,
         "profile_name": "DP_100",
         "target_impedance": 100.0,
         "type": 1,
