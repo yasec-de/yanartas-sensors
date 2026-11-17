@@ -15919,6 +15919,12 @@
 		(uuid "e8713a04-f38f-4448-9356-90dbe5fa9012")
 	)
 	(junction
+		(at 236.22 405.13)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ea579264-2c5d-4112-b1b5-9430e5f2c517")
+	)
+	(junction
 		(at 171.45 403.86)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -16255,10 +16261,6 @@
 	(no_connect
 		(at 486.41 336.55)
 		(uuid "ce6e2552-830f-4261-a8fb-9fb0c2b63a15")
-	)
-	(no_connect
-		(at 233.68 400.05)
-		(uuid "d283d6ee-8308-4126-8431-8a4cc1a9a5f0")
 	)
 	(no_connect
 		(at 598.17 339.09)
@@ -17812,6 +17814,16 @@
 			(type solid)
 		)
 		(uuid "24bd0acd-a472-4cdb-8ac8-d08d9a47608c")
+	)
+	(wire
+		(pts
+			(xy 233.68 400.05) (xy 236.22 400.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24e03bab-8177-4aa5-ba35-986b9a7b6c32")
 	)
 	(wire
 		(pts
@@ -23344,7 +23356,7 @@
 		(uuid "02b80b6e-f4bc-4074-9f8c-592b0c1e94ea")
 	)
 	(label "ETH_B+"
-		(at 80.01 339.09 0)
+		(at 80.01 349.25 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -23424,7 +23436,7 @@
 		(uuid "2654e308-d4b3-4e73-80b7-876abf0b69bc")
 	)
 	(label "ETH_B-"
-		(at 80.01 341.63 0)
+		(at 80.01 346.71 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -23704,7 +23716,7 @@
 		(uuid "602d5cd3-2883-4ce9-8334-9327ad81e8c3")
 	)
 	(label "ETH_D+"
-		(at 80.01 354.33 0)
+		(at 80.01 334.01 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -23744,7 +23756,7 @@
 		(uuid "690958c1-6b8b-495b-bc13-259fe59e1428")
 	)
 	(label "ETH_D-"
-		(at 80.01 356.87 0)
+		(at 80.01 331.47 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -23754,7 +23766,7 @@
 		(uuid "6d9182e1-d6b2-4210-b09b-31d48ca64ec9")
 	)
 	(label "ETH_C+"
-		(at 80.01 346.71 0)
+		(at 80.01 341.63 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -24084,7 +24096,7 @@
 		(uuid "b79ce059-9401-4a3e-af4c-43477746bba7")
 	)
 	(label "ETH_C-"
-		(at 80.01 349.25 0)
+		(at 80.01 339.09 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -24294,7 +24306,7 @@
 		(uuid "d7a8f9cc-86a7-41a8-a888-4a49017a489a")
 	)
 	(label "ETH_A+"
-		(at 80.01 331.47 0)
+		(at 80.01 356.87 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -24324,7 +24336,7 @@
 		(uuid "de2f54ea-3d33-4929-81b5-cf83ca20f321")
 	)
 	(label "ETH_A-"
-		(at 80.01 334.01 0)
+		(at 80.01 354.33 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -29475,6 +29487,109 @@
 			(project "yanartas-pillowbox-power"
 				(path "/674ed4d1-dd9a-4005-87ec-46c2a5667653"
 					(reference "#SYM4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 236.22 402.59 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "447af654-e978-4553-9a28-8710ad59e807")
+		(property "Reference" "R144"
+			(at 238.76 401.3199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "169k"
+			(at 238.76 403.8599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 236.22 402.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 236.22 402.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 236.22 402.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C22935"
+			(at 236.22 402.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey" ""
+			(at 236.22 402.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "339cbe2f-ad60-4d17-b45a-46c74bfc0198")
+		)
+		(pin "2"
+			(uuid "814c1076-ac6e-4c37-9bdf-9ba4d8fff830")
+		)
+		(instances
+			(project "yanartas-pillowbox-power"
+				(path "/674ed4d1-dd9a-4005-87ec-46c2a5667653"
+					(reference "R144")
 					(unit 1)
 				)
 			)
@@ -40661,7 +40776,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "470u/25V poly"
+		(property "Value" "470u/35V poly"
 			(at 152.4 400.4309 0)
 			(show_name no)
 			(do_not_autoplace no)
