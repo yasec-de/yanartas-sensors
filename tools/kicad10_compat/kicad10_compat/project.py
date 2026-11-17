@@ -66,11 +66,21 @@ MARKER_TYPES = {'MT_UNKNOWN': 0, 'MT_ERC': 1, 'MT_DRC': 2, 'MT_DRAWING_SHEET': 3
 NIL_UUID = '00000000-0000-0000-0000-000000000000'
 
 
+# KiCad 10's marker strings use LayerName() (common/layer_id.cpp), which differs from the canonical layer names of
+# board files for these layers
+LAYER_DISPLAY_NAMES = {
+    'B_Adhes': 'B.Adhesive', 'F_Adhes': 'F.Adhesive', 'B_SilkS': 'B.Silkscreen', 'F_SilkS': 'F.Silkscreen',
+    'Dwgs_User': 'User.Drawings', 'Cmts_User': 'User.Comments', 'Eco1_User': 'User.Eco1', 'Eco2_User': 'User.Eco2',
+    'F_CrtYd': 'F.Courtyard', 'B_CrtYd': 'B.Courtyard',
+}
+
+
 def api_layer_name(name):
-    """ BL_F_Cu -> F.Cu, BL_In1_Cu -> In1.Cu, BL_User_1 -> User.1 """
+    """ BL_F_Cu -> F.Cu, BL_In1_Cu -> In1.Cu, BL_F_SilkS -> F.Silkscreen, BL_User_1 -> User.1 """
     if not name or not name.startswith('BL_'):
         return 'F.Cu'
-    return name[3:].replace('_', '.', 1)
+    name = name[3:]
+    return LAYER_DISPLAY_NAMES.get(name, name.replace('_', '.', 1))
 
 
 def drc_exclusion_to_legacy(entry, report):
